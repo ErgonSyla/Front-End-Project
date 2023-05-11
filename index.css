@@ -142,3 +142,20 @@ h1 {
     font-size:13px;
     opacity:0.6;
   }
+
+  #button {
+    background-color: rgb(235, 231, 29);
+    width: 120px;
+    height: 60px;
+    margin-left: 50px;
+  }
+
+.footer-clean {
+  margin-top: 500px;
+}
+
+h2 {
+  color: #ccc;
+  margin-left: 50px;
+  margin-top: 80px;
+}

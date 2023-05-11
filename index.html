@@ -39,8 +39,15 @@
             </div>
         </nav>
     </div>
+    
+    <div id="div1">
 
     <h1>Syla Tours <br> My Bus Company</h1><br><br>
+
+    <h2>Get Your Tickets Now</h2>
+    <button id="button">Shop Now</button>
+
+    </div>
 
     <div class="footer-clean">
         <footer>
@@ -77,6 +84,21 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        $("#button").click(function(){
+            $("#div1").hide();
+        });
+
+        $("#button").mouseenter(function(){
+            $(this).css("background-color","rgb(210, 180, 15)")
+        })
+        $("#button").mouseleave(function(){
+            $(this).css("background-color","rgb(235, 231, 29)")
+        })
+    </script>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
